@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:layout_marginTop="200dip"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/username"
+        android:padding="10dip"
+        android:textColor="@color/black"
+        android:inputType="textEmailAddress"
+        android:background="@drawable/input_border"
+        android:layout_width="300dip"
+        android:layout_height="50dip"
+        android:hint="@string/username" />
+
+    <EditText
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dip"
+        android:layout_below="@+id/username"
+        android:inputType="textPassword"
+        android:id="@+id/password"
+        android:padding="10dip"
+        android:textColor="@color/black"
+        android:background="@drawable/input_border"
+        android:layout_width="300dip"
+        android:layout_height="50dip"
+        android:hint="@string/password" />
+
+    <Button
+        android:onClick="signClick"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dip"
+        android:layout_below="@+id/password"
+        android:id="@+id/signBtn"
+        android:text="@string/login"
+        android:textAllCaps="false"
+        android:textColor="#fff"
+        android:drawableEnd="@android:drawable/ic_menu_send"
+        android:textSize="25sp"
+        android:padding="10sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>

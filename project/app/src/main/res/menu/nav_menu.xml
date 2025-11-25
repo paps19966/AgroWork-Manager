@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/employees"
+        android:title="Εργαζόμενοι"
+        android:icon="@drawable/user" />
+    <item
+        android:id="@+id/farms"
+        android:title="Φάρμες"
+        android:icon="@drawable/farm" />
+    <item
+        android:id="@+id/calendar"
+        android:title="Ημερολόγιο"
+        android:icon="@drawable/calendar" />
+    <item
+        android:id="@+id/report"
+        android:title="Αναφορά"
+        android:icon="@drawable/reports" />
+</menu>

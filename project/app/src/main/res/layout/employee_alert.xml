@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="10dp">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:background="@color/black"
+            android:text="Στοιχεία εργαζομένου"
+            android:layout_width="match_parent"
+            android:paddingTop="4dp"
+            android:layout_height="30sp" />
+
+        <EditText
+            android:id="@+id/fullname"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Ονοματεπώνυμο" />
+
+        <EditText
+            android:id="@+id/tel"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Τηλέφωνο" />
+
+        <EditText
+            android:inputType="number"
+            android:id="@+id/rate"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Μισθός/ώρα" />
+
+        <EditText
+            android:focusable="false"
+            android:id="@+id/startDate"
+            android:hint="Ημερομηνία έναρξης"
+            android:inputType="none"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Spinner
+            android:layout_marginTop="20dp"
+            android:visibility="gone"
+            android:id="@+id/isActive"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+
+        <LinearLayout
+            android:id="@+id/farmsPicker"
+            android:visibility="gone"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:background="@color/black"
+                android:textColor="@color/white"
+                android:padding="7dp"
+                android:text="Φάρμες"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <LinearLayout
+                android:layout_marginTop="10dp"
+                android:orientation="vertical"
+                android:id="@+id/farms"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView >

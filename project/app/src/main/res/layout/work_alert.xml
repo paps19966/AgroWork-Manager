@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp">
+
+    <TextView
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:background="@color/black"
+        android:text="Πρόγραμμα"
+        android:layout_width="match_parent"
+        android:paddingTop="4dp"
+        android:layout_height="30sp" />
+
+    <TextView
+        android:paddingTop="4dp"
+        android:layout_marginTop="10dp"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:background="@color/gray"
+        android:text="Ημέρα"
+        android:layout_width="match_parent"
+        android:layout_height="30sp" />
+
+    <Spinner
+        android:layout_marginTop="10dp"
+        android:id="@+id/days"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:paddingTop="4dp"
+        android:layout_marginTop="10dp"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:background="@color/gray"
+        android:text="Ωράριο"
+        android:layout_width="match_parent"
+        android:layout_height="30sp" />
+
+    <RelativeLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/from"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:text="Από:"
+            android:textAllCaps="false"
+            android:textSize="16sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <Spinner
+            android:layout_toRightOf="@+id/from"
+            android:id="@+id/startTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_toRightOf="@+id/startTime"
+            android:id="@+id/to"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            android:text="Έως:"
+            android:textSize="16sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <Spinner
+            android:layout_toRightOf="@+id/to"
+            android:id="@+id/endTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:paddingTop="4dp"
+        android:layout_marginTop="10dp"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:background="@color/gray"
+        android:text="Εργασία"
+        android:layout_width="match_parent"
+        android:layout_height="30sp" />
+
+    <EditText
+        android:gravity="top|start"
+        android:inputType="textMultiLine"
+        android:minLines="3"
+        android:maxLines="10"
+        android:scrollbars="vertical"
+        android:hint="Σχόλια"
+        android:id="@+id/comments"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

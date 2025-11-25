@@ -1,0 +1,71 @@
+<resources>
+    <string name="app_name">Αγροτική Διαχείριση</string>
+    <string name="internet_required">Δεν υπάρχει σύνδεση στο Internet</string>
+    <string name="login">Είσοδος</string>
+    <string name="username">Όνομα χρήστη</string>
+    <string name="password">Κωδικός</string>
+    <string name="fields_missing_error">Συμπληρώστε όλα τα πεδία</string>
+    <string name="auth_fail">Αποτυχία εισόδου. Ελέγξτε τα στοιχεία που δώσατε</string>
+    <string name="add">Δημιουργία</string>
+    <string name="save">Αποθήκευση</string>
+    <string name="cancel">Ακύρωση</string>
+
+    <string name="employee_add_success">Επιτυχής δημιουργία εργαζομένου</string>
+    <string name="employee_add_fail">Η δημιουργία εργαζομένου απέτυχε</string>
+    <string name="employee_save_success">Επιτυχής αποθήκευση εργαζομένου</string>
+    <string name="employee_save_fail">Η αποθήκευση εργαζομένου απέτυχε</string>
+
+    <string name="employee_save_farms_fail">Η αντιστοίχιση εργαζομένων με φάρμες απέτυχε</string>
+
+    <string name="farm_add_success">Επιτυχής δημιουργία φάρμας</string>
+    <string name="farm_add_fail">Η δημιουργία φάρμας απέτυχε</string>
+    <string name="farm_save_success">Επιτυχής αποθήκευση φάρμας</string>
+    <string name="farm_save_fail">Η αποθήκευση φάρμας απέτυχε</string>
+    <string name="farm_delete_success">Επιτυχής διαγραφή φάρμας</string>
+    <string name="farm_delete_fail">Η διαγραφή φάρμας απέτυχε</string>
+
+    <string name="work_add_success">Επιτυχής δημιουργία εργασίας</string>
+    <string name="work_add_fail">Η δημιουργία εργασίας απέτυχε</string>
+    <string name="work_delete_success">Επιτυχής διαγραφή εργασίας</string>
+    <string name="work_delete_fail">Η διαγραφή εργασίας απέτυχε</string>
+
+    <string name="employee_not_found">Δε βρέθηκε ο εργαζόμενος</string>
+
+    <string name="time_slots_same">Οι ώρες έναρξης και λήξης δεν πρέπει να είναι ίδιες</string>
+    <string name="time_slots_invalid">Η ώρα λήξης δεν πρέπει να είναι προγενέστερη της ώρα έναρξης</string>
+
+    <string-array name="is_active_options">
+        <item>Ενεργός</item>
+        <item>Ανενεργός</item>
+    </string-array>
+
+    <string-array name="week_days">
+        <item>Δευτέρα</item>
+        <item>Τρίτη</item>
+        <item>Τετάρτη</item>
+        <item>Πέμπτη</item>
+        <item>Παρασκευή</item>
+        <item>Σάββατο</item>
+    </string-array>
+
+    <string-array name="time_slots">
+        <item>06:00</item>
+        <item>07:00</item>
+        <item>08:00</item>
+        <item>09:00</item>
+        <item>10:00</item>
+        <item>11:00</item>
+        <item>12:00</item>
+        <item>13:00</item>
+        <item>14:00</item>
+        <item>15:00</item>
+        <item>16:00</item>
+        <item>17:00</item>
+        <item>18:00</item>
+        <item>19:00</item>
+        <item>20:00</item>
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>
